@@ -1,0 +1,224 @@
+
+.chatgpt_flex
+{
+    display:flex;
+    border: px solid black;
+}
+.first_half
+{
+   
+    width:300px;
+    height:300px;
+    background-color: black;
+    border-right:2px solid rgb(171, 168, 168);
+}
+.first_overflow
+{
+    overflow: auto;
+    width:300px;
+    margin: auto;
+}
+.logo
+{
+    width:60px;
+    height:60px;
+    color:white;
+    margin-right: 10px;
+    border-radius: 50%;
+
+}
+.logo:hover{
+    color:red;
+}
+.align_center
+{
+    align-items: start;
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.newchat
+{
+    width:215px;
+    height:20px;
+    padding:15px;
+    font-size: 20px;
+    margin-left:30px;
+    border:px solid black;
+    border-radius: 5px;
+    background-color: rgb(14, 201, 157);
+    color: white;
+}
+.plus
+{
+    width:17px;
+    height:17px;
+    margin-right: 20px;
+    background-color: aliceblue;
+}
+.previouschat
+{
+    width:300px;
+    height:585px;
+    background-color:black;
+    border-bottom:1px solid rgb(192, 190, 190);
+}
+.Browse
+{
+    color:red;
+    cursor: pointer;
+    margin-top:20px;
+    text-decoration: black underline;
+    font-size: 20px;
+    width:245px;
+    height:50px;
+    padding:15px;
+}
+.preButton
+{
+    color:red;
+    cursor: pointer;
+    margin-top:20px;
+    font-size: 20px;
+    width:245px;
+    height:50px;
+    padding:15px;
+}
+.home
+{
+    width:40px;
+    height:40px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border:px solid red;
+}
+.homemain 
+{
+    border:px solid black;
+    width: 200px;
+    padding-left: 25px;
+    display: flex;
+   
+}
+.saved
+{
+    width:40px;
+    height:40px;
+    margin-right: 10px;
+    margin-top: 10px;
+    /* background-color: white; */
+}
+.savemain
+{
+    width:250px;
+    display: flex;
+    padding-left: 25px;
+    border:px solid black;
+}
+.mainupgrade
+{
+    width:250px;
+    display: flex;
+    padding-left: 25px;
+    border: px solid black;
+    
+}
+.upgrade
+{
+    width:40px;
+    height:40px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border: px solid black;
+}
+.Display
+{
+    overflow: auto;
+    height:75vh;
+    width:60%;
+    margin: auto;
+    border:px solid black;
+    background-color: white;
+    font-size: 20px;
+    color: rgb(32, 30, 30);
+}
+.Question_dis
+{
+    border:px solid black;
+    text-align: start;
+    padding: 10px;
+    padding-left:40px;
+
+}
+.logo_dis
+{
+
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.Answer_dis
+{
+    border:px solid black;
+    text-align: start;
+    line-height:1.5;
+    padding: 10px;
+    padding-left:40px;
+}
+.inputbar
+{
+    width:900px;
+    margin-top: 10px;
+    padding:15px;
+    border:3px solid rgb(241, 32, 164);
+    font-size: 25px;
+    border-radius: 15px;
+}
+.fewkindinfo
+{
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+    color: rgb(146, 141, 141);
+
+}
+.center
+{
+    justify-content: center;
+    border:px solid black;
+    align-items: center;
+    margin: auto;  
+} 
+.Gpt_space
+{
+    width:50px;
+    height:50px;
+    border:px solid black;
+    border-radius:50%;
+    text-align: center;
+    line-height:2.5;
+    background-color:rgb(241, 78, 165);
+    color:white;
+}
+.user_you
+{
+    width:50px;
+    height:50px;
+    border:px solid black;
+    border-radius:50%;
+    background-color: rgb(240, 235, 238);
+    text-align: center;
+    line-height:2.5;
+}
+.remaining
+{
+    border:px solid red;
+    width:100%;
+    height:100vh;
+}
